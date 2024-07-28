@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css"> -->
+
+    <!-- Xzoom -->
+    <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/xZoom/0.3.3/xzoom.min.css"> -->
+
+    <!-- font assistant -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font Playfair display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <a href="#" class="navbar-brand">
+          <img src="frontend/images/logo.png" alt="Logo Nomads" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navb"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Paket Travel</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbardrop"
+                data-toggle="dropdown"
+              >
+                Services
+              </a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link</a>
+                <a href="#" class="dropdown-item">Link</a>
+                <a href="#" class="dropdown-item">Link</a>
+              </div>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="#" class="nav-link">Testimonial</a>
+            </li>
+          </ul>
+
+          <!-- Mobile button -->
+          <form class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0">Masuk</button>
+          </form>
+
+          <!-- Desktop button -->
+          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+              Masuk
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <section class="section-details-header"></section>
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">Paket Travel</li>
+                  <li class="breadcrumb-item active">Details</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-details">
+                <h1>Rinjani</h1>
+                <p>Indonesia</p>
+                <div class="gallery">
+                  <div class="xzoom-container">
+                    <img
+                      src="frontend/images/rinjani1.jpg"
+                      alt=""
+                      class="xzoom"
+                      id="xzoom-default"
+                      xoriginal="frontend/images/rinjani1.jpg"
+                    />
+                  </div>
+                  <div class="xzoom-thumbs">
+                    <a href="frontend/images/rinjani1.jpg">
+                      <img
+                        src="frontend/images/rinjani1.jpg"
+                        alt=""
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/rinjani1.jpg"
+                      />
+                    </a>
+                    <a href="frontend/images/rinjani2.jpg">
+                      <img
+                        src="frontend/images/rinjani2.jpg"
+                        alt=""
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/rinjani2.jpg"
+                      />
+                    </a>
+                    <a href="frontend/images/rinjani3.jpg">
+                      <img
+                        src="frontend/images/rinjani3.jpg"
+                        alt=""
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/rinjani3.jpg"
+                      />
+                    </a>
+                    <a href="frontend/images/rinjani4.jpg">
+                      <img
+                        src="frontend/images/rinjani4.jpg"
+                        alt=""
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/rinjani4.jpg"
+                      />
+                    </a>
+                    <a href="frontend/images/rinjani5.jpg">
+                      <img
+                        src="frontend/images/rinjani5.jpg"
+                        alt=""
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="frontend/images/rinjani5.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <h2>Tentang Open Trip</h2>
+                <p>
+                  Gunung Rinjani adalah gunung berapi aktif yang terletak di
+                  pulau Lombok, Indonesia. Dengan ketinggian 3.726 meter di atas
+                  permukaan laut, Rinjani adalah gunung tertinggi kedua di
+                  Indonesia dan dikenal dengan pemandangan spektakulernya.
+                </p>
+                <p>
+                  Include : Tenda, Matras, Sleeping Bag, Makanan dan Minuman,
+                  Pemandu Berpengalaman, Peralatan Masak, Pertolongan Pertama
+                  <br>
+                  Exclude : Pakaian Pribadi, Sepatu Pendakian, Peralatan Kamera,
+                  Obat-obatan Pribadi, Peralatan Kebersihan Pribadi.
+                </p>
+                <div class="features row">
+                  <div class="col-md-4 d-flex align-items-center">
+                    <img
+                      src="frontend/images/via.png"
+                      alt=""
+                      class="featured-image"
+                    />
+                    <div class="description">
+                      <h3>VIA</h3>
+                      <p>Sembalun-Torean</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border-left d-flex align-items-center">
+                    <img
+                      src="frontend/images/hadiah.png"
+                      alt=""
+                      class="featured-image"
+                    />
+                    <div class="description">
+                      <h3>Hadiah</h3>
+                      <p>Best Climber</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border-left d-flex align-items-center">
+                    <img
+                      src="frontend/images/penghargaan.png"
+                      alt=""
+                      class="featured-image"
+                    />
+                    <div class="description">
+                      <h3>Penghargaan</h3>
+                      <p>E-sertifikat</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-details card-right">
+                <h2>Anggota Baru Bergabung</h2>
+                <div class="members-container d-flex flex-wrap">
+                  <div class="members my-2">
+                    <img
+                      src="frontend/images/member1.png"
+                      alt=""
+                      class="member-image mr-1"
+                    />
+                  </div>
+                  <div class="members my-2">
+                    <img
+                      src="frontend/images/member2.png"
+                      alt=""
+                      class="member-image mr-1"
+                    />
+                  </div>
+                  <div class="members my-2">
+                    <img
+                      src="frontend/images/member3.png"
+                      alt=""
+                      class="member-image mr-1"
+                    />
+                  </div>
+                  <div class="members my-2">
+                    <img
+                      src="frontend/images/member4.png"
+                      alt=""
+                      class="member-image mr-1"
+                    />
+                  </div>
+                  <div class="members my-2">
+                    <img
+                      src="frontend/images/member5.png"
+                      alt=""
+                      class="member-image mr-1"
+                    />
+                  </div>
+                </div>
+
+                <hr />
+                <h2>Informasi Trip</h2>
+                <table class="trip-informations">
+                  <tr>
+                    <th width="50%">Keberangkatan</th>
+                    <td width="50%" class="text-right">23 Aug, 2019</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Durasi</th>
+                    <td width="50%" class="text-right">4D 3N</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Tipe</th>
+                    <td width="50%" class="text-right">Open Trip</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Harga</th>
+                    <td width="50%" class="text-right">$80,00 / orang</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="join-container">
+                <a
+                  href="checkout.html"
+                  class="btn btn-block btn-join-now mt-3 py-2"
+                >
+                  Bergabung sekarang
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Ulasan</a></li>
+                  <li><a href="#">Komunitas</a></li>
+                  <li><a href="#">Kit Media Social</a></li>
+                  <li><a href="#">Afiliasi</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Pengembalian Dana</a></li>
+                  <li><a href="#">Keamanan</a></li>
+                  <li><a href="#">Hadiah</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>COMPANY</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Karir</a></li>
+                  <li><a href="#">Pusat Bantuan</a></li>
+                  <li><a href="#">Media</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>GET CONNECTED</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Medan</a></li>
+                  <li><a href="#">Indonesia</a></li>
+                  <li><a href="#">0822-6729-6897</a></li>
+                  <li><a href="#">info@jejakpendaki.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center allign-items-center pt-4"
+        >
+          <div class="col-auto text-gray-500 font-weight-light">
+            2024 Copyrigth jejakPendaki . All Right Reserved . Made in Medan
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- <script src="frontend/libraries/jquery/jquery-3.7.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/2.1.3/retina.min.js"></script> -->
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+
+    <!-- Xzoom -->
+    <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          Xoffset: 15,
+        });
+      });
+    </script>
+  </body>
+</html>
